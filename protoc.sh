@@ -1,4 +1,4 @@
-echo "this is easy proto compiler for python"
+echo "this is easy proto script for python"
 echo "made by kaoru"
 echo ""
-protoc -I=/home/kaoru/Documents/Protocol-Buffers-Python/ --python_out=/home/kaoru/Documents/Protocol-Buffers-Python/output/ /home/kaoru/Documents/Protocol-Buffers-Python/addressbook.proto
+protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/addressbook.proto
