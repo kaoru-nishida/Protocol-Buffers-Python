@@ -13,7 +13,7 @@ def PromptForAddress(person):
     person.email = email
 
   while True:
-    number = raw_input("電話番号を入力 : ")
+    number = raw_input("電話番号を入力（または空白のままで終了） : ")
     if number == "":
       break
 
